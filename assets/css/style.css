@@ -1,3 +1,8 @@
+body {
+    background-color: #FAE8E0;
+    color:#D8A7B1;
+}
+
 .navbar-inverse { 
     background-color: #D8A7B1
     
@@ -23,4 +28,8 @@
     margin: 1%;
     padding: 1.5%;
     color: white;
+}
+
+.btn {
+    color:#D8A7B1;
 }
