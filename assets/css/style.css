@@ -33,3 +33,12 @@ body {
 .btn {
     color:#D8A7B1;
 }
+
+.contact {
+    background: url(../images/aboutus-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
