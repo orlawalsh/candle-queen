@@ -42,3 +42,35 @@ body {
     width: 100%;
     height: auto;
 }
+
+.about{
+    background: url(../images/aboutus-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+}
+
+.heading {
+    font-size: 50px;  
+    font-weight: 400;
+   
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px; /* 5px rounded corners */
+  width: 100%;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.productimg {
+  border-radius: 10px 10px 10px 10px;
+ 
+  width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
