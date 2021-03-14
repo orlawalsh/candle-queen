@@ -2,3 +2,25 @@
     background-color: #D8A7B1
     
 }
+
+.footer { 
+    background-color: #D8A7B1
+}
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social{
+    text-align: center;
+
+}
+.social li{
+    display: inline;
+}
+
+.social i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1.5%;
+    color: white;
+}
