@@ -100,3 +100,9 @@ body {
     background-color: white;
 
 }
+
+.btn:active {
+    color:#D8A7B1 !important;
+    background-color: white !important;
+
+}
