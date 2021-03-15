@@ -1,11 +1,22 @@
 body {
     background-color: #FAE8E0;
+    font-size: 20px !important;
     color:#D8A7B1;
+    font-family: 'Karla', sans-serif;
 }
 
 .navbar-inverse { 
     background-color: #D8A7B1
     
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 70px;
+    background-size: contain;
 }
 
 .footer { 
