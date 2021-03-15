@@ -106,3 +106,13 @@ body {
     background-color: white !important;
 
 }
+
+.giftbox{
+    background: url(../images/giftbox-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+}
