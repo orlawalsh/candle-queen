@@ -52,7 +52,7 @@ h1 {
 }
 
 .btn {
-    color:#D8A7B1;
+    columns: #444444;
 }
 
 .contact {
@@ -189,5 +189,19 @@ h1 {
   }
   .mobile-slider{
     display:block;
+  }
+    .carousel-caption {
+      background-color: rgba(0,0,0,0.3);
+        padding:8px;
+        font-size: 80%;
+  }
+
+  .carousel-caption h1 {
+      color:white;
+  }
+
+  .mobile {
+      color:white;
+      font-weight: bold;
   }
 }
