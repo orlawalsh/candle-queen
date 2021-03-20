@@ -112,11 +112,11 @@ body {
     }
 }
  .navbar-cus {
-     background-color: #D8A7B1;
+     background-color: #b69b9e
     
 }
 .active>.nav-link {
-    color: #FAE8E0 !important;
+    color: white !important;
 }
 .nav-link {
     color:#915C67 !important;
@@ -126,7 +126,7 @@ body {
     color: #915C67;
 }
  .footer {
-     background-color: #D8A7B1;
+     background-color: #b69b9e;
  }
  
  .footer p {
