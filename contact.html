@@ -60,7 +60,7 @@
 						<div class="col-md-12">
 							<div class="md-form">
 								<label for="message">Your message</label>
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Write something.."></textarea>
+								<textarea id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Write something.."></textarea>
 							</div>
 						</div>
 					</div>
@@ -72,7 +72,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 mt-4">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.2622769938457!2d-7.246650683866857!3d52.65524007984001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d3a0a55e10a23%3A0x4a976c3786b699d5!2sMacDonagh%20Junction%20Shopping%20Centre!5e0!3m2!1sen!2sie!4v1615725995336!5m2!1sen!2sie" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.2622769938457!2d-7.246650683866857!3d52.65524007984001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d3a0a55e10a23%3A0x4a976c3786b699d5!2sMacDonagh%20Junction%20Shopping%20Centre!5e0!3m2!1sen!2sie!4v1615725995336!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			    </div>
 				<div class="col-md-6 text-center">
 					<ul class="list-unstyled mb-4">
@@ -90,32 +90,36 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer text-center text-white">
+	<footer class="footer text-center">
 		<div class="container p-4 pb-0">
-			<form>
-				<div class="row d-flex justify-content-center">
-					<div class="col-auto">
-						<p class="pt-2"> <strong>Sign up for our newsletter: </strong> </p>
-					</div>
-					<div class="col-md-5 col-12">
-						<div class="mb-4">
-							<input type="email" id="newsletter" class="form-control" />
-							<label class="form-label" for="newsletter">Email address</label>
+			<section>
+				<form>
+					<div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+						   <h5 class="pt-2">Sign up for our newsletter: </h5>
+					    </div>
+						<div class="col-md-5 col-12">
+							<div class="mb-4">
+                                <input type="email" id="newsletter" name="email" class="form-control" placeholder="Your Email..">
+								<label class="form-label" for="newsletter"></label>
+							</div>
+						</div>
+						<div class="col-auto">
+							<button type="submit" class="btn btn-light mb-4">Subscribe</button>
 						</div>
 					</div>
-					<div class="col-auto">
-						<button type="submit" class="btn btn-light mb-4">Subscribe</button>
-					</div>
-				</div>
-			</form>
-
+				</form>
+			</section>
            <section>
+               
                <ul class="social-networks">
                   <li><a href="https://www.facebook.com" aria-label="Facebook Link" target="_blank"> <i class="fab fa-facebook"> </i></a></li>
                   <li><a href="https://www.twitter.com" aria-label="Twitter Link" target="_blank"> <i class="fab fa-twitter-square"> </i></a></li>
                   <li><a href="https://www.youtube.com" aria-label="YouTube Link" target="_blank"> <i class="fab fa-youtube-square"> </i></a></li>
                   <li><a href="https://www.instagram.com" aria-label="Instagram Link" target="_blank"> <i class="fab fa-instagram"> </i></a></li>
                </ul>
+               <h5>Follow us on Social Media</h5>
+               <br>
             </section>
         </div>
 		<div class="copyright text-center p-3">© 2021 Copyright: <a class="text-white">Orla Walsh</a> </div>
