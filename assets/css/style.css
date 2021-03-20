@@ -80,7 +80,7 @@ body {
          margin-top: 7rem;
     }
 }
- @media screen and (max-width: 1000px){
+ @media screen and (max-width: 900px){
      button.navbar-toggler {
          position: absolute !important;
          right: 10px !important;
