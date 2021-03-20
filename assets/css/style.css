@@ -1,7 +1,7 @@
 body {
-    background-color: #dcdcdd;
-    font-size: 20px !important;
-    color: #69849b;
+     background-color: #FAE8E0;
+     font-size: 20px !important;
+     color: #444444;
      font-family: 'Karla', sans-serif;
 }
  .btn {
@@ -112,14 +112,14 @@ body {
     }
 }
  .navbar-cus {
-     background-color: #3d6a66;
+     background-color: #b69b9e
     
 }
 .active>.nav-link {
-    color: white !important;
+    color: #FAE8E0 !important;
 }
 .nav-link {
-    color:#1d2424 !important;
+    color:#915C67 !important;
 }
 
 .navbar-toggler-icon{
@@ -215,7 +215,7 @@ body {
      position: relative;
      background: url(../images/logo.png);
      background-repeat: no-repeat;
-     width: 1000px;
+     width: 900px;
      height: 85px;
      background-size: contain;
 }
