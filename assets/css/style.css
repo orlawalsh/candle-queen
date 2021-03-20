@@ -1,5 +1,5 @@
 body {
-     background-color: #FAE8E0;
+     background-color: #e3dae7;
      font-size: 20px !important;
      color: #444444;
      font-family: 'Karla', sans-serif;
@@ -22,7 +22,7 @@ body {
  .slider-text {
      font-size: 50px;
      font-weight: 500;
-     color: #915C67;
+     color: #714d69;
 }
  .carousel {
      margin-bottom: 4rem;
@@ -112,32 +112,33 @@ body {
     }
 }
  .navbar-cus {
-     background-color: #b69b9e
+     background-color: #714d69;
     
 }
 .active>.nav-link {
-    color: #FAE8E0 !important;
+    color: white !important;
 }
 .nav-link {
-    color:#915C67 !important;
+    color:white !important;
 }
 
 .navbar-toggler-icon{
     color: #915C67;
 }
  .footer {
-     background-color: #b69b9e;
+     background-color: #714d69;
  }
  
  .footer p {
      
-     color: #915C67;
+     color: white;
 }
 .form-label{
-    color: #915C67;
+    color: white;
 }
  .copyright {
      background-color: rgba(0, 0, 0, 0.2);
+     color:white;
 }
  .social-networks{
      text-align: center;
@@ -149,7 +150,7 @@ body {
      font-size: 160%;
      margin: 1%;
      padding: 1.5%;
-     color: #915C67;
+     color: white;
 }
  .card {
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -174,7 +175,7 @@ body {
  .heading {
      font-size: 50px;
      font-weight: 400;
-     color: #915C67;
+     color: #714d69;
 }
  #product-text {
      color: #444444;
@@ -223,7 +224,7 @@ body {
      background-color: #FAE8E0;
 }
  .btn-light:hover {
-     color:#D8A7B1;
+     color:#b69b9e;
      background-color: white;
 }
  .image-container {
