@@ -1,7 +1,7 @@
 body {
-     background-color: #FAE8E0;
-     font-size: 20px !important;
-     color: #444444;
+    background-color: #dcdcdd;
+    font-size: 20px !important;
+    color: #69849b;
      font-family: 'Karla', sans-serif;
 }
  .btn {
@@ -112,14 +112,14 @@ body {
     }
 }
  .navbar-cus {
-     background-color: #b69b9e
+     background-color: #3d6a66;
     
 }
 .active>.nav-link {
     color: white !important;
 }
 .nav-link {
-    color:#915C67 !important;
+    color:#1d2424 !important;
 }
 
 .navbar-toggler-icon{
