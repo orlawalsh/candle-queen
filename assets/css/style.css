@@ -116,7 +116,8 @@ body {
     
 }
 .active>.nav-link {
-    color: white !important;
+    color: #e3dae7 !important;
+    text-decoration: underline;
 }
 .nav-link {
     color:white !important;
@@ -221,7 +222,7 @@ body {
      background-size: contain;
 }
  .modal-content {
-     background-color: #FAE8E0;
+     background-color: #e3dae7;
 }
  .btn-light:hover {
      color:#b69b9e;
