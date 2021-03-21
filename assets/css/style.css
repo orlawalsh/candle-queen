@@ -82,7 +82,7 @@ body {
          margin-top: 7rem;
     }
 }
- @media screen and (max-width: 900px){
+ @media screen and (max-width: 100em){
      button.navbar-toggler {
          position: absolute !important;
          right: 10px !important;
@@ -94,7 +94,7 @@ body {
     }
      .mobile-slider{
          display:block;
-         width:100% 
+         min-width: 100%
     }
      .carousel-caption {
          background-color: rgba(0,0,0,0.3);
@@ -164,8 +164,8 @@ body {
  .productimg {
      border-radius: 10px 10px 10px 10px;
      width: 100%;
-     height: 25vw;
      object-fit: cover;
+     height: 20em;
 }
  .product{
      background: url(../images/product-bg.jpg);
