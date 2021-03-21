@@ -55,11 +55,20 @@ The website was built using a MVP (Minimum Viable Product) methodology approach:
 
 The breakdown of the site structure is as follows:
 
-* Home Page -
-* Product Page -
-* Giftbox Page -
-* About Us Page -
-* Contact Us Page - 
+* Home Page - index.html:
+  - Provides an overview of the company and the products.
+  - A section with information about our giftboxes and link to giftbox page to explore further.
+  - A section with information about our products and link to products page to explore further
+  - A testimonial section with reviews from current customers to build trust in the brand.
+* Product Page - products.html:
+  - Displays product images and names of all products available.
+* Giftbox Page - giftbox.html
+  - Displays giftbox images and names to promote the upcoming products.
+* About Us Page - about.html
+  - Displays information about the company.
+  - Displays images of the owners behind the brand.
+* Contact Us Page - contact.html
+  - Consists of a contact form, google maps and other location/contact information.
 
 ## Skeleton
 
