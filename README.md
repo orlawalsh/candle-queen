@@ -55,15 +55,65 @@ The website was built using a MVP (Minimum Viable Product) methodology approach:
 
 The breakdown of the site structure is as follows:
 
-* Home Page - Includes a 
+* Home Page -
 * Product Page -
 * Giftbox Page -
 * About Us Page -
-* Contact Us Page - This includes a contact form, 
+* Contact Us Page - 
+
+## Skeleton
+
+- Wirefames here
+
+## Surface
+
+### Images
+
+All images were sourced from [UnSplash](https://unsplash.com/) and have been referenced in the credit section. 
+
+### Colours
+
+For my colour palette I took inspriation for the colour sheme from [Color Palettes](https://colorpalettes.net) - This is really helped to visualize the colours and how them would interact with each other as they supply images of the colours in pratice along side the palette. I didn't choose a set palette from the site, I used colours from a couple of different ones and created my own palette. 
+
+This final colour palette I settled on is below:
+![Colour Scheme](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/colour-scheme.png)
+
+I used [Color Mind](http://colormind.io/) to create the above screenshot and to see the colours side by side.
+
+### Typography
+
+I used Google Fonts to find a suitable font for the site. The font I decided on was "Karla", it is a very simple font that is easy to read while still adding extra style to the site. Sans-Serif is being used as a backup font.
+
+### Icons
+
+Font Awesome was used for any icons needed for the site. This included the social media icons in the footer and the various icons that are added to the contact page.
 
 # Features
 
 # Technologies Used
+
+### Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+* [Bootstrap:](https://getbootstrap.com/) - Bootstrap was used for responsiveness, grid system for layout, the Nav bar, Carousel and forms.
+* [Font Awesome:](https://fontawesome.com/) - Font Awesome was used for any icons needed on the site.
+* [Google Fonts:](https://getbootstrap.com/) - Google Fonts was used to add the "Karla" font to the site.
+* [Gitpod:](https://gitpod.io/) - Gitpod was the IDE used for coding the site.
+* [GitHub:](https://github.com/) - Github was used to store the files after being pushed.
+* [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create wireframes.
+
+### Other:
+* [W3Schools](https://www.w3schools.com/) - Used for researching and examples.
+* [AmIResponsive](http://ami.responsivedesign.is/) Used to check the responsiveness of the site across multiple devices. 
+* [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test the pages from a mobile device.
+* [Code Institute Course](https://courses.codeinstitute.net/) - Used for learning code and refering back to certain sections during the project.
+* [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for debugging issues and making changes on the fly to see how they would look.
+
+
 
 # Testing
 
