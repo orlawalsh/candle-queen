@@ -166,8 +166,15 @@ Font Awesome was used for any icons needed for the site. This included the socia
 * [NameCheap Logo Maker](https://www.namecheap.com/logo-maker) - This was used to create the logo for the site.
 
 # Testing
+### [HTML Validator](https://validator.w3.org/)  
+![HTML Validation](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/html-validation.png)
 
-# Project bugs and solutions
+There was one issue that showed up on the HTML Validator and this was due to a <section> element missing a <h> tag. This was easily rectified by adding a <h> to the section that was flagged.
+
+### [CSS Validator](https://jigsaw.w3.org/css-validator/)
+![CSS Validation](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/css-validation.png)
+
+There were no issues reported on the CSS Validator. 
 
 # Deployment
 
