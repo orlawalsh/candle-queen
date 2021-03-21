@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 body {
      background-color: #e3dae7;
      font-size: 20px !important;
      color: #444444;
      font-family: 'Karla', sans-serif;
+     font-display: fallback;
 }
  .btn {
      color: #444444;
@@ -175,7 +177,7 @@ body {
  .heading {
      font-size: 50px;
      font-weight: 400;
-     color: #714d69;
+     color: white;
 }
  #product-text {
      color: #444444;
