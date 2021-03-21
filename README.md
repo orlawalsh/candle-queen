@@ -7,7 +7,6 @@ The live site can be viewed here - [Candle Queen](https://orlawalsh.github.io/ca
 ## Table of Contents
 
 > -	[About](#about)
-> -	[Description](#description)
 > -	[UX](#ux)
 > -	[Features](#features)
 > -	[Technologies Used](#technologies-used)
@@ -20,8 +19,6 @@ The live site can be viewed here - [Candle Queen](https://orlawalsh.github.io/ca
 # About 
 
 The aim of this project was to create an elegant user-friendly website for a local candle making business, amied at candle lovers and those looking to support and source from small local businesses. I wanted to create a site where users can any information they need relating to the products and services that Candle Queen have to offer.
-
-# Description
 
 # UX
 ## Strategy
@@ -166,15 +163,27 @@ Font Awesome was used for any icons needed for the site. This included the socia
 * [NameCheap Logo Maker](https://www.namecheap.com/logo-maker) - This was used to create the logo for the site.
 
 # Testing
+
+## Automated Testing
+
 ### [HTML Validator](https://validator.w3.org/)  
 ![HTML Validation](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/html-validation.png)
 
-There was one issue that showed up on the HTML Validator and this was due to a <section> element missing a <h> tag. This was easily rectified by adding a <h> to the section that was flagged.
+There was one issue that showed up on the HTML Validator and this was due to a < section > element missing a < h > tag. This was easily rectified by adding a < h > to the section that was flagged.
 
 ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
 ![CSS Validation](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/css-validation.png)
 
 There were no issues reported on the CSS Validator. 
+
+### [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+![Google Mobile Friendly Test](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/mobile-validation.png)
+
+All pages were checked with Google Mobile Friendly Test and all pages passed with no issues.
+
+### Manual Testing
+
+* In progress.
 
 # Deployment
 
@@ -224,7 +233,7 @@ Resolving deltas: 100% (142/142), done.
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Needs to be updated.
 
 ### Media
 
