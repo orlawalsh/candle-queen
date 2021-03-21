@@ -4,9 +4,24 @@
 
 The live site can be viewed here - [Candle Queen](https://orlawalsh.github.io/candle-queen)
 
-## About 
+## Table of Contents
+
+> -	[About](#about)
+> -	[Description](#description)
+> -	[UX](#ux)
+> -	[Features](#features)
+> -	[Technologies Used](#technologies-used)
+> -	[Testing](#testing)
+> -	[Project bugs and solutions](#project-bugs-and-solutions)
+> - [Deployment](#deployment)
+> -	[Credits](#credits)
+> - [Acknowledgements](#acknowledgements)
+
+# About 
 
 The aim of this project was to create an elegant user-friendly website for a local candle making business, amied at candle lovers and those looking to support and source from small local businesses. I wanted to create a site where users can any information they need relating to the products and services that Candle Queen have to offer.
+
+# Description
 
 # UX
 ## Strategy
@@ -46,8 +61,15 @@ The breakdown of the site structure is as follows:
 * About Us Page -
 * Contact Us Page - This includes a contact form, 
 
+# Features
 
-## Deployment
+# Technologies Used
+
+# Testing
+
+# Project bugs and solutions
+
+# Deployment
 
 ### GitHub Pages
 
@@ -92,3 +114,50 @@ remote: Total 326 (delta 65), reused 100 (delta 27), pack-reused 173
 Receiving objects: 100% (326/326), 100.16 MiB | 16.22 MiB/s, done.
 Resolving deltas: 100% (142/142), done.
 ```
+## Credits
+
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+
+Images used on the index.html page:
+
+* [First Carousel Image](https://unsplash.com/photos/rqkJBfCzprw) - Taken from UnSplash
+* [Second Carousel Image](https://unsplash.com/photos/eiQfkA0oEhc) - Taken from UnSplash
+* [Multi Candle Image](https://unsplash.com/photos/59KYLY3vSJk) - Taken from UnSplash
+* [Single Candle Image](https://unsplash.com/photos/Br2BwCBA-s0) - Taken from UnSplash
+* [Amy](https://unsplash.com/photos/QXevDflbl8A) - Taken from UnSplash
+* [John](https://unsplash.com/photos/iFgRcqHznqg) - Taken from UnSplash
+* [Sally](https://unsplash.com/photos/rDEOVtE7vOs) - Taken from UnSplash
+
+Images used on the products.html page:
+
+* [Header Image](https://unsplash.com/photos/9LtEK5L2xSw) - Taken from UnSplash
+* [First Candle](https://unsplash.com/photos/ldRGBNFkkqo) - Taken from UnSplash
+* [Second Candle](https://unsplash.com/photos/B0G8xzwTVWc) - Taken from UnSplash
+* [Third Candle](https://unsplash.com/photos/CUK3w97pVC8) - Taken from UnSplash
+* [Fourth Candle](https://unsplash.com/photos/Br2BwCBA-s0) - Taken from UnSplash
+
+Images used on the giftbox.html page:
+
+* [Header Image](https://unsplash.com/photos/QzNIr1ORRAU) - Taken from UnSplash
+* [Single Candle](https://unsplash.com/photos/B0G8xzwTVWc) - Taken from UnSplash
+* [First Multi Candle](https://unsplash.com/photos/jQKeCGR7PL4) - Taken from UnSplash
+* [Second Multi Candle](https://unsplash.com/photos/59KYLY3vSJk) - Taken from UnSplash
+* [Third Multi Candle](https://unsplash.com/photos/K1Xi_R_mfpk) - Taken from UnSplash
+
+Images used on the about.html page:
+
+* [Header Image](https://unsplash.com/photos/UXGLzFD-jVs) - Taken from UnSplash
+* [Kim](https://unsplash.com/photos/_KaMTEmJnxY) - Taken from UnSplash
+* [Jessica](https://unsplash.com/photos/O_XIvDy0pcs) - Taken from UnSplash
+* [Sasha](https://unsplash.com/photos/ROJFuWCsfmA) - Taken from UnSplash
+
+Images used on the contact.html page:
+
+* [Header Image](https://unsplash.com/photos/UXGLzFD-jVs) - Taken from UnSplash
+
+### Acknowledgements
+
+- I received inspiration for this project from X
