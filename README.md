@@ -35,6 +35,7 @@ The aim of this project was to create an elegant user-friendly website for a loc
 
 **User Stories**
 
+* As a user of the website, I want to be able to navigate the site easily.
 * As a user of the website, I would like to read reviews on the company/products before deciding to purchase.
 * As a user of the website, I would like to be able to subscribe to a newsletter so I can keep up to date on new products and receive exclusive discounts.
 * As a user of the website, I would like be able to contact the company with questions before making a purchase.
@@ -70,6 +71,8 @@ The breakdown of the site structure is as follows:
 * Contact Us Page - contact.html
   - Consists of a contact form, google maps and other location/contact information.
 
+All pages consist of a navigation bar at the top and a footer at the botton which includes an option to sign up to our newsletter and also links to find us on social media.
+
 ## Skeleton
 
 - Wirefames here
@@ -99,6 +102,45 @@ Font Awesome was used for any icons needed for the site. This included the socia
 
 # Features
 
+## Existing Features
+
+### Navbar
+* The Navbar consists of links to each of the pages on the site.
+* It is fully response so it resizes to the device.
+* The logo is clickable to help return to the home page easily.
+
+### Home 
+* The page consists of a carousel at the top which prompt users with buttons to go to the product page or sign up to the newsletter.
+* A section with information about our giftboxes and link to giftbox page to explore further
+* A section with information about our products and link to products page to explore further
+* A testimonial section with reviews from current customers to build trust in the brand.
+
+### Products
+* Contains information about our current products.
+* The page consists of current products including images of them with a popup modal box which displays further information about each one.
+
+### Giftboxes
+* Contains information about what the upcoming giftboxes will include.
+* The page consists of four giftbox images with a popup modal box which displays further information about each one.
+
+### About
+* Displays information about who we are and what we do.
+* Display photos of the people behind the business.
+
+### Contact
+* Allows users to get in contact via a form with any questions they may have.
+* Displays locational informaion and additional contact information.
+
+### Footer
+* Includes links to social media which is displayed as the icon of the relevant platform, which open in new tabs once clicked.
+* A form for users to sign up to our newsletter. 
+
+## Features Left to Implement
+* Adding functionality to the newsletter form - Since the project is to create a static site, this is beyond what we have learned so far but inscructions on how to do this will be included in future modles.
+* Adding functionality to the form on the contact us page - Similar to the newsletter, this is beyond what we have learned so far but inscructions on how to do this will be included in future modles.
+* Scroll to top button - to help users return back to the top quickly without loads of scrolling.
+* Optimize the form on the contact page so it looks good on smaller screens.
+
 # Technologies Used
 
 ### Languages Used
@@ -121,8 +163,7 @@ Font Awesome was used for any icons needed for the site. This included the socia
 * [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test the pages from a mobile device.
 * [Code Institute Course](https://courses.codeinstitute.net/) - Used for learning code and refering back to certain sections during the project.
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for debugging issues and making changes on the fly to see how they would look.
-
-
+* [NameCheap Logo Maker](https://www.namecheap.com/logo-maker) - This was used to create the logo for the site.
 
 # Testing
 
@@ -219,4 +260,6 @@ Images used on the contact.html page:
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Mo Shami - my mentor, who was a huge help throughout this project.
+- The Slack Community for their help and support.
+- My friends for testing the site on their devices.
