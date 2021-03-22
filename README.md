@@ -72,7 +72,11 @@ All pages consist of a navigation bar at the top and a footer at the botton whic
 
 ## Skeleton
 
-- Wirefames here
+* [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/home-page.png)
+* [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/product-page.png)
+* [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftbox-page.png)
+* [About Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/about-page.png)
+* [Contact Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/contact-page.png)
 
 ## Surface
 
