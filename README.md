@@ -167,6 +167,7 @@ Font Awesome was used for any icons needed for the site. This included the socia
 * [Code Institute Course](https://courses.codeinstitute.net/) - Used for learning code and refering back to certain sections during the project.
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for debugging issues and making changes on the fly to see how they would look.
 * [NameCheap Logo Maker](https://www.namecheap.com/logo-maker) - This was used to create the logo for the site.
+* [WAVE](https://wave.webaim.org/) - Used for testing Web Accessibility.
 
 # Testing
 
@@ -204,6 +205,25 @@ All pages were checked with Google Mobile Friendly Test and all pages passed wit
 #### Carousel Testing:
 * The Carousel was tested to ensure the next and previous buttons were working and the slide selector at the botton of the carousel was also tested. 
 * The Carousel image changes based on screen resolution so this was tested to ensure the correct image was displayed based on screen resolution.
+
+#### Devices used for testing:
+I used a mix of devices for all the above testing. BrowserStack along with my own devices, friends and families devices were used for testing.
+
+* Mobile devices:
+  * Xiaomi: Mi 10T Pro, Note 10 Lite.
+  * Samsung Galaxy: S10, S20, S21.
+  * Google: Pixel 5, Nexus 6.
+  * iPhone: 6S, 11, 11 Pro, 12.
+
+* Tablet devices:
+  * Samsung Tab: A7.
+  * iPad: Pro 12.9, Mini 2019.
+
+* Browsers:
+  * Chrome.
+  * FireFox.
+  * Safari.
+  * Edge.
 
 # Deployment
 
