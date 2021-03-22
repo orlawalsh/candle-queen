@@ -200,17 +200,21 @@ There were no issues reported on the CSS Validator.
 
 All pages were checked with Google Mobile Friendly Test and all pages passed with no issues.
 
-[WAVE](https://wave.webaim.org/) was also used for testing to ensure the site is adhearing to accessibility guidelines.
+### [WAVE](https://wave.webaim.org/) 
 
-I alsed used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing the performance. I was able to get very strong results, all in the high 90's or 100, below is a sample of the results I was seeing:
+WAVE was also used for testing to ensure the site is adhearing to accessibility guidelines.
 
+### [Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 ![Lighthouse Results](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/lighthouse-results.png)
+
+I also used Lighthouse for testing the performance. I was able to get very strong results, all in the high 90's or 100. Above is a sample of the results I was seeing.
 
 Some pages came back with suggestions to resize and optimize the images for better performance. I was able to address this by using [Resize Image](https://resizeimage.net/) to resize and optimize any images on the site.
 
-I used [GTmetrix](https://gtmetrix.com/) as another tool for performance testing. I was also getting excellent results there too. Most areas on that report were high 90s and 100 again. The only areas that heavily fell down was "Add Expires headers" and "Leverage browser caching", both of these are outside of my control at the moment as those are not settings that can be configured on GitHub Pages.
-
+### [GTmetrix](https://gtmetrix.com/)
 ![GTmetrix Results](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/gtmetrix-results.png)
+
+I used GTmetrix as another tool for performance testing. I was also getting excellent results there too. Most areas on that report were high 90s and 100 again. The only areas that heavily fell down was "Add Expires headers" and "Leverage browser caching", both of these are outside of my control at the moment as those are not settings that can be configured on GitHub Pages.
 
 ### Manual Testing
 
