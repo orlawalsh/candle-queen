@@ -72,6 +72,8 @@ All pages consist of a navigation bar at the top and a footer at the botton whic
 
 ## Skeleton
 
+Wireframes:
+
 * [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/home-page.png)
 * [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/product-page.png)
 * [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftbox-page.png)
@@ -237,7 +239,16 @@ Resolving deltas: 100% (142/142), done.
 ## Credits
 
 ### Content
-- Needs to be updated.
+
+* [Bootstrap Carousel Example](https://getbootstrap.com/docs/5.0/examples/carousel/) - Used for the home page and adapted to suit my project.
+* [Product and Giftbox Home Page](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - Used to achieve an overlay when hovering on images.
+* [Product and Giftbox Cards](https://www.w3schools.com/howto/howto_css_cards.asp) - Used to display products, giftboxes, team and adapted to suit my project.
+* [Hamburger](https://stackoverflow.com/questions/46869157/keep-hamburger-menu-inline-with-logo) - Followed to fix an issue with the hamburger floating under the logo.
+* [Card height/width](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width) - Followed to keep all cards at the same height and width.
+* [Modal](https://getbootstrap.com/docs/5.0/components/modal/) - Added for the more info section on products and giftboxes.
+* [Google Maps](https://blog.duda.co/responsive-google-maps-for-your-website) - Followed to embed Google Maps to the contact page.
+* [Contact Form](https://mdbootstrap.com/docs/b4/jquery/forms/contact/) - Used the contact form layout for inspiration and adapted to suit my project.
+
 
 ### Media
 
