@@ -18,7 +18,7 @@ The live site can be viewed here - [Candle Queen](https://orlawalsh.github.io/ca
 
 # About 
 
-The aim of this project was to create an elegant user-friendly website for a local candle making business, amied at candle lovers and those looking to support and source from small local businesses. I wanted to create a site where users can any information they need relating to the products and services that Candle Queen have to offer.
+The aim of this project was to create an elegant user-friendly website for a local candle making business, amied at candle lovers and those looking to support and source from small local businesses. I wanted to create a site where users can access any information they need relating to the products and services that Candle Queen have to offer.
 
 # UX
 ## Strategy
@@ -151,8 +151,8 @@ Font Awesome was used for any icons needed for the site. This included the socia
 ## Features Left to Implement
 * Adding functionality to the newsletter form - Since the project is to create a static site, this is beyond what we have learned so far but inscructions on how to do this will be included in future modles.
 * Adding functionality to the form on the contact us page - Similar to the newsletter, this is beyond what we have learned so far but inscructions on how to do this will be included in future modles.
-* Scroll to top button - to help users return back to the top quickly without loads of scrolling.
-* Optimize the form on the contact page so it looks good on smaller screens.
+* Scroll to top button - to help users return back to the top quickly without loads of scrolling. This might require some JavaScript so may not be possible.
+* Add to cart/check-out function - This is a little out of scope for this project but would make a great addition to the site in the future.
 
 # Technologies Used
 
@@ -178,6 +178,8 @@ Font Awesome was used for any icons needed for the site. This included the socia
 * [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for debugging issues and making changes on the fly to see how they would look.
 * [NameCheap Logo Maker](https://www.namecheap.com/logo-maker) - This was used to create the logo for the site.
 * [WAVE](https://wave.webaim.org/) - Used for testing Web Accessibility.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used for testing site speed.
+* [GTmetrix](https://gtmetrix.com/) - Used for testing site speed.
 
 # Testing
 
@@ -197,6 +199,18 @@ There were no issues reported on the CSS Validator.
 ![Google Mobile Friendly Test](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/mobile-validation.png)
 
 All pages were checked with Google Mobile Friendly Test and all pages passed with no issues.
+
+[WAVE](https://wave.webaim.org/) was also used for testing to ensure the site is adhearing to accessibility guidelines.
+
+I alsed used [Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing the performance. I was able to get very strong results, all in the high 90's or 100, below is a sample of the results I was seeing:
+
+![Lighthouse Results](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/lighthouse-results.png)
+
+Some pages came back with suggestions to resize and optimize the images for better performance. I was able to address this by using [Resize Image](https://resizeimage.net/) to resize and optimize any images on the site.
+
+I used [GTmetrix](https://gtmetrix.com/) as another tool for performance testing. I was also getting excellent results there too. Most areas on that report were high 90s and 100 again. The only areas that heavily fell down was "Add Expires headers" and "Leverage browser caching", both of these are outside of my control at the moment as those are not settings that can be configured on GitHub Pages.
+
+![GTmetrix Results](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/gtmetrix-results.png)
 
 ### Manual Testing
 
@@ -264,6 +278,14 @@ I used a mix of devices for all the above testing. BrowserStack along with my ow
 "As a Frequent User, I want to check to see if any new products have been released."
 > As a frequent user, the user would be easily able to navigate to the products or giftbox section to have a look at the new products.
 
+# Project bugs and solutions
+* GitHub seems to be displaying my code incorrectly when viewing the files within GitHub. The indentation is not showing up correctly for some reason. I have spent a number of hours on trying to fix it but have been unsuccessful. The strange thing is, when the exact same code is pulled to GitPod or to my local computer, the code displays correctly formatted on both. I brought the issue to the tutoring team for some help but they were unable to offer any guidance on why this might be happening. They suggested that it was displaying incorrect due to the fact that GitHub is not a coding editor. I haven't had this issue on GitHub before so I'm not sure what might be causing it. I tried re-formatting the code multiples times but I did not have any luck.
+* I implented an overlay feature on the feature section of the home page. During testing, this did not work well for smaller resolutions as there was no mouse to hover over the images to show this feature. The solution I came up with for this was to implement buttons on the home page for those images, I then set some media queries in the CSS to trigger the buttons to only show up at a certain resolution size and to hide again once the resolution was over a certain size.
+* I had an issue with the hamburger floating under the logo on small resolution sizes. It did not look good and is not a good user experience either. After a bit of research, I found this [Stack Overflow](https://stackoverflow.com/questions/46869157/keep-hamburger-menu-inline-with-logo) and following the advice here helped me address this issue.
+* I also had an issue with keeping all the cards used for the products and giftboxes the same width and height. It did not look visually appealing to see this and also caused issues with responsiveness. I found this [Stack Overflow](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width) and following the advice here with a little tweaking, I was able to address this issue.
+* After implementing the carousel, I noticed during testing that the carousel image did not look good on certain resolution sizes, the image looked very pixelated and the quality did not look good. I was able to resolve this issue by implementing media queries in the CSS to trigger different carousel images to load depending on the resolution size.
+* Once I implemented the images for different resolution sizes within the carousel, I noticed the text on the carousel was difficult to read when the full image was behind it. To make the text easier to read and pop, I used media queries to switch the text to white and to add an overlay behind the text once a certain resolution size was reached.
+* One final issue I found was on the home page when testing responsiveness in ChromeDevTools, when the screen reached a certain resolution size, it seems a block on white spaced was added down the right hand side of the page. I did extensive testing on this with ChromeDevTools and I was not able to track down any line of HMTL or CSS that might be causing it. While testing on actual mobile devices, I was not able to replicate this behaviour so I can only assume it must be some kind of bug within the ChromeDevTools.
 
 # Deployment
 
@@ -318,7 +340,7 @@ Resolving deltas: 100% (142/142), done.
 * [Product and Giftbox Home Page](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - Used to achieve an overlay when hovering on images.
 * [Product and Giftbox Cards](https://www.w3schools.com/howto/howto_css_cards.asp) - Used to display products, giftboxes, team and adapted to suit my project.
 * [Hamburger](https://stackoverflow.com/questions/46869157/keep-hamburger-menu-inline-with-logo) - Followed to fix an issue with the hamburger floating under the logo.
-* [Card height/width](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width) - Followed to keep all cards at the same height and width.
+* [Card width/height](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width) - Followed to keep all cards at the same height and width.
 * [Modal](https://getbootstrap.com/docs/5.0/components/modal/) - Added for the more info section on products and giftboxes.
 * [Google Maps](https://blog.duda.co/responsive-google-maps-for-your-website) - Followed to embed Google Maps to the contact page.
 * [Contact Form](https://mdbootstrap.com/docs/b4/jquery/forms/contact/) - Used the contact form layout for inspiration and adapted to suit my project.
