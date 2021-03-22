@@ -32,14 +32,20 @@ The aim of this project was to create an elegant user-friendly website for a loc
 
 **User Stories**
 
-* As a user of the website, I want to be able to navigate the site easily.
-* As a user of the website, I would like to read reviews on the company/products before deciding to purchase.
-* As a user of the website, I would like to be able to subscribe to a newsletter so I can keep up to date on new products and receive exclusive discounts.
-* As a user of the website, I would like be able to contact the company with questions before making a purchase.
-* As a user of the website, I would like to view products and learn more about them before deciding to purchase.
-* As a user of the website, I would like to be able to check out the company on various social media.
-* As a user of the website, I would like to be able to purchase giftboxes as a gift for friends and family.
-* As a user of the website, I would like to read about the company and discover who is behind the brand.
+* First Time Visitor Goals
+  * As a First Time Visitor, I want to be able be able to understand the purpose of the site.
+  * As a First Time Visitor, I to navigate around the site easily and find the content I am looking for.
+  * As a First Time Visitor, I want to see testimonials on the company/products. I also want easy access to their social media links so I check their social media to gauge how trustworthy or well know the company is.
+
+* Returning Visitor Goals
+  * As a Returning Visitor, I want to find the best way to contact the company with questions before making a purchase.
+  * As a Returning Visitor, I want to view products and learn more about them before deciding to purchase.
+
+* Frequent User Goals
+  * As a Frequent User, I want to subscribe to a newsletter so I can keep up to date on new products and receive exclusive discounts.
+  * As a Frequent User, I want to check to see if any new products have been released.
+  
+**Site Owner Goals**
 
 ## Scope
 
@@ -224,6 +230,18 @@ I used a mix of devices for all the above testing. BrowserStack along with my ow
   * FireFox.
   * Safari.
   * Edge.
+
+### User Story Testing:
+
+"As a First Time Visitor, I want to be able be able to understand the purpose of the site."
+> After loading the site, the user is presented with an attractive, minimalist, clean site. There is a simple navigation bar at the top of every page which makes it easy for the user to vist any page they wish and not get trapped in any section. Just under the navigation bar there is a carousel with buttons to direct the user to signup to our Newsletter or check out our products. Under the carousel, there is a short, quick to the point statement which makes it easy to understand the purpose of the site.
+
+"As a First Time Visitor, I to navigate around the site easily and find the content I am looking for."
+> At the very top of the site, there is a simple navigation bar. All sections are clearly labled to represent what each link will show so there are no surprises when they navigate to their chosen page.
+
+"As a First Time Visitor, I want to see testimonials on the company/products. I also want easy access to their social media links so I check their social media to gauge how trustworthy or well know the company is."
+> 
+
 
 # Deployment
 
