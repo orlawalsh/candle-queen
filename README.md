@@ -34,7 +34,7 @@ The aim of this project was to create an elegant user-friendly website for a loc
 
 * First Time Visitor Goals
   * As a First Time Visitor, I want to be able be able to understand the purpose of the site.
-  * As a First Time Visitor, I to navigate around the site easily and find the content I am looking for.
+  * As a First Time Visitor, I want to navigate around the site easily and find the content I am looking for.
   * As a First Time Visitor, I want to see testimonials on the company/products. I also want easy access to their social media links so I check their social media to gauge how trustworthy or well know the company is.
 
 * Returning Visitor Goals
@@ -44,8 +44,12 @@ The aim of this project was to create an elegant user-friendly website for a loc
 * Frequent User Goals
   * As a Frequent User, I want to subscribe to a newsletter so I can keep up to date on new products and receive exclusive discounts.
   * As a Frequent User, I want to check to see if any new products have been released.
-  
+
 **Site Owner Goals**
+
+* As a site owner, I want to encourage users to interact with us and buy our products.
+* As a site owner, I want to expand our product range by gaining feedback from the users.
+* As a site owner, I want to engage with potential customers and display our current range of products for them to view.
 
 ## Scope
 
@@ -233,14 +237,32 @@ I used a mix of devices for all the above testing. BrowserStack along with my ow
 
 ### User Story Testing:
 
+#### First Time Visitor
+
 "As a First Time Visitor, I want to be able be able to understand the purpose of the site."
 > After loading the site, the user is presented with an attractive, minimalist, clean site. There is a simple navigation bar at the top of every page which makes it easy for the user to vist any page they wish and not get trapped in any section. Just under the navigation bar there is a carousel with buttons to direct the user to signup to our Newsletter or check out our products. Under the carousel, there is a short, quick to the point statement which makes it easy to understand the purpose of the site.
 
-"As a First Time Visitor, I to navigate around the site easily and find the content I am looking for."
-> At the very top of the site, there is a simple navigation bar. All sections are clearly labled to represent what each link will show so there are no surprises when they navigate to their chosen page.
+"As a First Time Visitor, I want to navigate around the site easily and find the content I am looking for."
+> At the very top of the site, there is a simple navigation bar at the top of every page which makes it easy for the user to vist any page they wish. All sections are clearly labled to represent what each link will show so there are no surprises when they navigate to their chosen page.
 
 "As a First Time Visitor, I want to see testimonials on the company/products. I also want easy access to their social media links so I check their social media to gauge how trustworthy or well know the company is."
-> 
+> As the new user scrolls down to the bottom of the home page, they will be presented with testimonials from existing customers. Testimonials are displayed with a photo of the reviewee and accompanying text which highlights that existing customers experience. While they are at the bottom of the page checking the reviews, the links to social media are just below. They can also be found at the bottom of every page on the site. All links are opened in a seperate tab so the user is never taken away from the site.
+
+#### Returning Visitor
+
+"As a Returning Visitor, I want to find the best way to contact the company with questions before making a purchase."
+> The navigation bar includes a link to the contact page which makes it easier for the user to navigate straight to the page. Once on the contact page, there are a number of different wasys to get in touch. The user can fill out the on screen form which will be sent straight to the company once submitted. The user can also reach us on the phone number or email address provided and lastly the user can use the location provided to visit our store in person. The social media links are also included at the bottom of the page so the user could also reach out to us on any of those platforms with their queries.
+
+"As a Returning Visitor, I want to view products and learn more about them before deciding to purchase.:
+> The navigation bar includes a link to the product page which makes it easier for the user to navigate straight to the page. Just under the navigation bar there is a carousel, one of the slides includes a button to the product page. If they scroll down a little further, there is also a feature section which they can click to bring them to products also. Once on the products page, they can see photos of the products, just under the photo there is a "More Info" button, a modal will pop-up with further details about that particular product. Once they are done reading the information they can simple use the close button or "X" to close the modal and follow the same process to learn about the other products.
+
+#### Frequent User
+
+"As a Frequent User, I want to subscribe to a newsletter so I can keep up to date on new products and receive exclusive discounts."
+> In the footer of the site, at the very bottom of the page just above the links to the social media. There is a "Sign up for our newsletter" heading with an input box for their email address. The user simply just needs to enter their email and click the "Subscribe" button.
+
+"As a Frequent User, I want to check to see if any new products have been released."
+> As a frequent user, the user would be easily able to navigate to the products or giftbox section to have a look at the new products.
 
 
 # Deployment
