@@ -189,7 +189,21 @@ All pages were checked with Google Mobile Friendly Test and all pages passed wit
 
 ### Manual Testing
 
-* In progress.
+#### Form Testing:
+* I tested by trying to submit the contact form by pressing the "Submit" button with no input added to any fields which resulted in a "Please fill out this field" response. I repeated this for each field to ensure the form would not submit until all fields were filled out. 
+
+* I also tested the newsletter signup form in the footer of all pages. I tested by pressing the "Submit" button with no email address added, this resulted in a "Please fill out this field" response. This test was carried out on all pages.
+
+#### Link Testing:
+* The first links I tested were the internal links, I ensured all links in the navigation bar direct to the correct page by clicking on each one from each page. I also tested the social media icons in the footer of each page. All links are direcing to the correct platform and have the `target="_blank"` attribute so they open in a new tab rather than it opening on the current page and the user being taken away from the site. The `rel="noopener` attribute was also added as a test with Lighthouse suggested to add this to improve performance and prevent security vulnerabilities.
+* I have tested that clicking the logo links back to the index.html page on all pages.
+
+#### Modal Testing:
+* The modal boxes on the products and giftbox pages were all tested by clicking on the "More Info" button, once clicked, the modal displaying the information popped up. Once the modal popped up the close button and "X" button were also tested to ensure the modal can be closed once finished with it.
+
+#### Carousel Testing:
+* The Carousel was tested to ensure the next and previous buttons were working and the slide selector at the botton of the carousel was also tested. 
+* The Carousel image changes based on screen resolution so this was tested to ensure the correct image was displayed based on screen resolution.
 
 # Deployment
 
