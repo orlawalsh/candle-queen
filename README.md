@@ -84,11 +84,12 @@ All pages consist of a navigation bar at the top and a footer at the botton whic
 
 Wireframes:
 
-* [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/home-page.png)
-* [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/product-page.png)
-* [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftbox-page.png)
-* [About Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/about-page.png)
-* [Contact Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/contact-page.png)
+* Desktop:
+ * [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/home-page.png)
+ * [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/product-page.png)
+ * [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftbox-page.png)
+ * [About Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/about-page.png)
+ * [Contact Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/contact-page.png)
 
 ## Surface
 
@@ -202,7 +203,7 @@ All pages were checked with Google Mobile Friendly Test and all pages passed wit
 
 ### [WAVE](https://wave.webaim.org/) 
 
-WAVE was also used for testing to ensure the site is adhearing to accessibility guidelines.
+WAVE was also used for testing to ensure the site is adhearing to accessibility guidelines. All tests came back with no errors to report.
 
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse) 
 ![Lighthouse Results](https://github.com/orlawalsh/candle-queen/blob/master/assets/images/lighthouse-results.png)
