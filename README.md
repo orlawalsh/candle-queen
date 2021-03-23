@@ -82,14 +82,21 @@ All pages consist of a navigation bar at the top and a footer at the botton whic
 
 ## Skeleton
 
-Wireframes:
+### Wireframes:
 
-* Desktop:
+#### Desktop:
  * [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/home-page.png)
  * [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/product-page.png)
  * [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftbox-page.png)
  * [About Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/about-page.png)
  * [Contact Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/contact-page.png)
+
+#### Mobile & Tablet:
+ * [Home Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/homepage-mobile.png)
+ * [Product Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/productpage-mobile.png)
+ * [Giftbox Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/giftboxpage-mobile.png)
+ * [About Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/aboutpage-mobile.png)
+ * [Contact Page](https://github.com/orlawalsh/candle-queen/blob/master/assets/wireframes/contactpage-mobile.png)
 
 ## Surface
 
